@@ -2,8 +2,8 @@
 Reproduce range request issue with ngx-extended-pdf-viewer in Angular and Node as a server.  
 
 Steps to reproduce issue 
-Angular - 
-  npm install
+Angular - \n
+  npm install \n
   ng serve
 
 *ngx-extended-pdf-viewer is addded to project and url is passed to [src]

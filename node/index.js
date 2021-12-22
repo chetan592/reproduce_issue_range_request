@@ -64,12 +64,12 @@ http
 
       });
 
-      res.end()
+      //res.end()
 
-      // let readable = createReadStream(samplePDF);
-      // pipeline(readable, res, err => {
-      //   console.log(err);
-      // });
+       let readable = createReadStream(samplePDF);
+       pipeline(readable, res, err => {
+         console.log(err);
+       });	
 
     }
   })
